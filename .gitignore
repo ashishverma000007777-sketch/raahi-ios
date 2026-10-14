@@ -1,0 +1,34 @@
+# Xcode & Swift
+.DS_Store
+*/.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+project.xcworkspace
+xcuserdata/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Fastlane & CocoaPods
+Pods/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Security & Private Credentials
+GoogleService-Info.plist
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+*.key
+*.pem
+secrets.env
+.env
